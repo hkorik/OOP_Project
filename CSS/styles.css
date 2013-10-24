@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+.clear{
+	clear: both;
+}
+#wrapper{
+	padding: 15px;
+	width:600px;
+	margin: 10px auto;
+}
+#wrapper h1{
+	text-align: center;
+}
+	/*Pop up Messages styling*/
+	.success_message{
+		color: green;
+	}
+	.error_message{
+		color: red;
+	}
+	.highlighted{
+		border:1px solid red;
+	}
+	.field_block{
+		border:1px solid red;
+		width:160px;
+		margin-bottom:5px;
+	}
+	/* Registration left box*/
+	#registration_box {
+		border:1px solid black;
+		padding: 5px;
+		margin-top: 20px;
+		margin-left: 30px;
+		width:200px;
+	}
+		#registration_box h2{
+			color:grey;
+			text-decoration: underline;
+		}
+		#registration_box form{
+			margin-top:10px; 
+		}
+		#registration_box input{
+			margin-bottom: 10px;
+		}
+	/* Login right box*/	
+	#login_box {
+		border:1px solid black;
+		padding: 5px;
+		margin-top: 20px;
+		margin-right: 30px;
+		width:200px;
+	}
+		#login_box h2{
+			color:grey;
+			text-decoration: underline;
+		}
+		#login_box form{
+			margin-top:10px; 
+		}
+		#login_box input{
+			margin-bottom: 10px;
+		}
+#wrapper_home{
+	padding: 15px;
+	width:600px;
+	margin: 10px auto;
+}
+	#wrapper_home #header{
+		height: 40px;
+
+	}
+		#wrapper_home #header p{
+			font-size: 18px;
+		}
+	#wrapper_home #main{
+		margin: 20px 0px 0px 0px;
+	}
+		#wrapper_home #main h3{
+			border-bottom: 1px solid black;
+			display: inline-block;
+		}
+		#wrapper_home #main table{
+			margin: 15px 0px;
+			border: 1px solid grey;
+		}
+		#wrapper_home #main th{
+			border: 1px solid grey;
+			width:150px;
+		}
+		#wrapper_home #main td{
+			padding: 4px;
+		}
